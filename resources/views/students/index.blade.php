@@ -12,7 +12,7 @@
 <body class="bg-gray-900 text-gray-100">
 
     <div class="w-full flex justify-center items-center min-h-screen px-4 py-8">
-        <div class="w-full max-w-6xl bg-amber-600 rounded-xl shadow-md shadow-amber-300 px-6 py-6 flex flex-col gap-4">
+        <div class="w-full max-w-6xl  rounded-xl shadow-md shadow-amber-300 px-6 py-6 flex flex-col gap-4">
 
             <!-- 🔍 Search + Title -->
             <div class="flex flex-col sm:flex-row justify-between items-center mb-4 gap-3">
