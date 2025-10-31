@@ -12,7 +12,7 @@
 <body class="bg-gray-900 text-gray-100">
     <div class="w-full flex justify-center  items-center h-screen">
         <div
-            class="w-1/3 bg-amber-600 h-auto rounded-xl shadow-md shadow-amber-300 px-4 py-3 flex items-center justify-center
+            class="w-1/3 bg-amber-500 h-auto rounded-xl shadow-md shadow-amber-300 px-4 py-3 flex items-center justify-center
         flex-col gap-2">
             <form action="{{ route('students.store') }}" class="w-full" method="POST">
                 @csrf
@@ -59,7 +59,7 @@
 
 
                 <div class="w-full flex items-center justify-center mt-2">
-                    <input type="submit" value="Submit" class="bg-amber-900 px-6 py-1 rounded-md "> 
+                    <input type="submit" value="Submit" class="bg-amber-900 px-6 py-1 rounded-md ">
                 </div>
             </form>
         </div>

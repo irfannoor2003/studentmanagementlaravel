@@ -11,7 +11,7 @@
 
 <body class="bg-gray-900 text-gray-100">
     <div class="w-full flex justify-center items-center h-screen">
-        <div class="w-1/3 bg-amber-600 h-auto rounded-xl shadow-md shadow-amber-300 px-4 py-6 flex flex-col items-center gap-3">
+        <div class="w-1/3 bg-amber-500 h-auto rounded-xl shadow-md shadow-amber-300 px-4 py-6 flex flex-col items-center gap-3">
 
             <h2 class="text-2xl font-semibold text-center text-amber-950 mb-2">Update Student</h2>
 
@@ -53,7 +53,7 @@
                         class="bg-amber-700 border border-amber-900 text-gray-100 text-sm rounded-lg px-3 py-2 outline-none focus:ring focus:ring-amber-900">
                         <option value="" disabled>Select a Class</option>
                         @foreach ($varname11 as $class)
-                            <option value="{{ $class->id }}" 
+                            <option value="{{ $class->id }}"
                                 {{ $class->id == $varname->classroom_id ? 'selected' : '' }}>
                                 {{ $class->name }}
                             </option>
